@@ -8,18 +8,19 @@ module.exports = {
       },
 
       colors: {
-        "bright-red": "hsl(12, 88%, 59%)",
-        "dark-blue": "hsl(228, 39%, 23%)",
-        "dark-grayish-blue": "hsl(227, 12%, 61%)",
-        "very-dark-blue": "hsl(233, 12%, 13%)",
-        "very-pale-red": "hsl(13, 100%, 96%)",
-        "vary-light-gray": "hsl(0, 0%, 98%)",
+        // Mis colores: _color
+        _orange: "hsl(12, 88%, 59%)",
+        _darkBlue: "hsl(228, 39%, 23%)",
+        _gray: "hsl(135, 2%, 33%)",
+        _blackBlue: "hsl(233, 12%, 13%)",
+        _beige: "hsl(13, 100%, 96%)",
+        _lightBeige: "hsl(0, 0%, 98%)",
       },
       backgroundImage: {
         // Imágenes para el menú responsive
         "close-menu": "url('./assets/images/icon-close.svg')",
-        "open-menu": "url('./assets/images/icon-hamburger.svg')"
-      }
+        "open-menu": "url('./assets/images/icon-hamburger.svg')",
+      },
     },
   },
   plugins: [],
