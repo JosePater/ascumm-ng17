@@ -3,10 +3,12 @@ import { HomeComponent } from './pages/home/home.component';
 import { AboutUsComponent } from './pages/about-us/about-us.component';
 import { ProjectsComponent } from './pages/projects/projects.component';
 import { ContactComponent } from './pages/contact/contact.component';
+import { NotFoundComponent } from './pages/not-found/not-found.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'nosotros', component: AboutUsComponent },
   { path: 'proyectos', component: ProjectsComponent },
   { path: 'contacto', component: ContactComponent },
+  { path: '**', component: NotFoundComponent, pathMatch: 'full' },
 ];
