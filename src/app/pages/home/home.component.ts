@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-home',
@@ -8,8 +7,4 @@ import { Title } from '@angular/platform-browser';
   templateUrl: './home.component.html',
   styleUrl: './home.component.css',
 })
-export class HomeComponent {
-  constructor(titulo: Title) {
-    titulo.setTitle('ASCUMM');
-  }
-}
+export class HomeComponent {}

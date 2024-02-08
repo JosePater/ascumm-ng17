@@ -6,9 +6,18 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
 
 export const routes: Routes = [
-  { path: '', component: HomeComponent },
-  { path: 'nosotros', component: AboutUsComponent },
-  { path: 'proyectos', component: ProjectsComponent },
-  { path: 'contacto', component: ContactComponent },
-  { path: '**', component: NotFoundComponent, pathMatch: 'full' },
+  { path: '', title: 'ASCUMM', component: HomeComponent },
+  { path: 'nosotros', title: 'Nosotros', component: AboutUsComponent },
+  {
+    path: 'proyectos',
+    title: 'Proyectos | ASCUMM',
+    component: ProjectsComponent,
+  },
+  { path: 'contacto', title: 'Contacto | ASCUMM', component: ContactComponent },
+  {
+    path: '**',
+    title: 'Página no encontrada',
+    component: NotFoundComponent,
+    pathMatch: 'full',
+  },
 ];

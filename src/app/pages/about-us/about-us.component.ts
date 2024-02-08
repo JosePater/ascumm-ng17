@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-about-us',
@@ -9,7 +8,5 @@ import { Title } from '@angular/platform-browser';
   styleUrl: './about-us.component.css',
 })
 export class AboutUsComponent {
-  constructor(titulo: Title) {
-    titulo.setTitle('Nosotros');
-  }
+
 }

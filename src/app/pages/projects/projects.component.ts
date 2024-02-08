@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-projects',
@@ -26,7 +25,4 @@ export class ProjectsComponent {
       img: 'assets/images/proyectos-pollos.jpg',
     },
   ];
-  constructor(titulo: Title) {
-    titulo.setTitle('Proyectos | ASCUMM');
-  }
 }
